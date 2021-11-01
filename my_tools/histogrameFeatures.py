@@ -42,7 +42,7 @@ class HistogrameFeatures:
         return ellipMask
 
     def histogram(self, image, mask):
-        """extracting a 3D color histogram from the masked region of the image, using the supplied """
+        """extracting a 3D color histogram from the masked region of the image"""
         hist = cv2.calcHist(
             [image], [0, 1, 2], mask, self.bins,[0, 180, 0, 256, 0, 256]
         )
