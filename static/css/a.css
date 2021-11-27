@@ -1,32 +1,8 @@
-/*! CSS Used from: http://127.0.0.1:5000/static/css/a.css */
-label{display:inline-block;}
-button,input{overflow:visible;}
-h4{margin-top:0;}
-h4,label{margin-bottom:.5rem;}
-body{text-align:left;}
 header,nav{display:block;}
-a{background-color:transparent;}
-*,::after,::before{box-sizing:border-box;}
-body{font-family:Rubik,sans-serif;font-size:.875rem;font-weight:400;line-height:1.5;background-color:#f2f4f5;}
 [tabindex="-1"]:focus{outline:0!important;}
-a{text-decoration:none;}
 a{-webkit-text-decoration-skip:objects;}
 a:hover{color:#381be7;}
-table{border-collapse:collapse;}
-th{text-align:inherit;}
-button{border-radius:0;}
-button:focus{outline:dotted 1px;outline:-webkit-focus-ring-color auto 5px;}
-button,input,select{margin:0;font-family:inherit;font-size:inherit;line-height:inherit;}
-button,select{text-transform:none;}
-button{-webkit-appearance:button;}
 button::-moz-focus-inner{padding:0;border-style:none;}
-[type=search]{outline-offset:-2px;-webkit-appearance:none;}
-h4{margin-bottom:.5rem;font-family:inherit;font-weight:400;line-height:1.2;color:inherit;}
-h4{font-size:18px;}
-.container-fluid{padding-right:10px;padding-left:10px;margin-right:auto;margin-left:auto;width:100%;}
-.row{display:flex;flex-wrap:wrap;margin-right:-10px;margin-left:-10px;}
-.col-5,.col-lg-12,.col-lg-6,.col-md-12{position:relative;width:100%;min-height:1px;padding-right:10px;padding-left:10px;}
-.col-5{flex:0 0 41.66667%;max-width:41.66667%;}
 @media (min-width:768px){
 .col-md-12{flex:0 0 100%;max-width:100%;}
 }
@@ -34,11 +10,7 @@ h4{font-size:18px;}
 .col-lg-6{flex:0 0 50%;max-width:50%;}
 .col-lg-12{flex:0 0 100%;max-width:100%;}
 }
-.table{width:100%;max-width:100%;margin-bottom:1rem;background-color:transparent;}
-.table td,.table th{padding:1rem;vertical-align:top;border-top:1px solid #dee2e6;}
-.table thead th{vertical-align:bottom;border-bottom:2px solid #dee2e6;}
-.table-hover tbody tr:hover{background-color:#f6f8f9;}
-.table-responsive{display:block;width:100%;overflow-x:auto;-webkit-overflow-scrolling:touch;-ms-overflow-style:-ms-autohiding-scrollbar;}
+
 .navbar{flex-wrap:wrap;}
 .navbar{padding:.5rem 1rem;}
 .navbar{position:relative;display:flex;align-items:center;justify-content:space-between;}

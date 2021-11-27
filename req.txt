@@ -1,3 +1,4 @@
+opencv-python
 appdirs==1.4.4
 certifi==2021.10.8
 click==8.0.3
